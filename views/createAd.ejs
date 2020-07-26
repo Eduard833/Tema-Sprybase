@@ -1,0 +1,35 @@
+
+
+<nav>
+    <h3 >Rent app</h3>
+    
+</nav>
+
+   <main>
+        <section class="createAd">
+        <form action="/ads" method="POST">
+            <br>
+            <textarea class="userdata" name="title" id="title" cols="30" rows="3" maxlength="150" placeholder="Title"></textarea>
+            <br>
+            <textarea class="userdata" name="description" id="description" cols="30" rows="3" maxlength="500" placeholder="Description"></textarea>
+            <br>
+            <select name="type" id="">
+                <optgroup>
+                    <option value="1 room">1 room</option>
+                    <option value="2 room">2 room</option>
+                    <option value="3 room">3 room</option>
+                </optgroup>
+             </select>
+             <br>
+            <input class="userdata" name="address" id="address" type="text" placeholder="Address">
+            <br>
+            <input class="userdata" name="price" id="price" type="text" placeholder="Price">
+            <br>
+            <input class="userdata" name="phone" pattern="[0-9]{3}-[0-9]-{2}-[0-9]{3}" id="phone" type="text" placeholder="Phone number">
+            <br>
+            <input id="filedata" type="file" id="img" name="img" accept="image/*" multiple>
+            <br>
+            <button type="submit" id="post-button">Post</button>
+        </form>
+        </section>
+    </main> 

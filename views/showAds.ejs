@@ -1,0 +1,24 @@
+<nav>
+    <h3 >Rent app</h3>
+    
+</nav>
+
+<section class="ads">
+    <% for(let i = 0; i < ads.length; ++i) { %>
+        <div class="infoAd">
+            <h3 class="title"><%= ads[i].title %></h3>
+            <p class="description">Description: <%= ads[i].description %></p>
+            <p class="type">Type: <%= ads[i].type %></p>
+            <p class="address">Address: <%= ads[i].address %></p>
+            <p class="phone">Phone: <%= ads[i].phone %></p>
+            <p class="price">Price: <%= ads[i].price %> &euro;</p>
+            
+          </div>
+      </div>
+      
+    <% } %>
+      
+  </section>
+    
+    
+</main>

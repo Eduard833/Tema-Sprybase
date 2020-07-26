@@ -1,0 +1,174 @@
+body{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: url("img/home.jpg") no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+
+.create-button, .show-button {
+    display: inline-block;
+    margin: 0 20px;
+
+
+
+}
+
+.create-button, .show-button button{
+
+
+margin: 10px 20px ;
+
+}
+
+
+.btn{
+    background:white;
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+   
+    font-size: 18px;
+    font-weight: bold;
+    color: #001F3F;
+    border: 1px solid ;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px ; 
+    font-family: 'Brush Script'
+}
+.btn:hover {
+    color: white;
+    background-color: #0f4c75;
+}
+
+nav p {
+    
+        color: white;
+        font-size: 20px;
+
+    
+}
+
+nav{
+    display: flex;
+    min-height: 8hv;
+    background-color: #0f4c75;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+
+}
+nav h3{
+    margin-left: 10px;
+
+}
+
+
+.motto{
+    padding-top: 20px;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 5px 5px 6px #524f4e;
+}
+
+.createAd{
+    display: inline-block;
+    margin: 0 25px;
+
+    
+}
+
+
+.createAd form{
+    
+        background:rgb(191,191,191, 0.5);
+        width: 400px;
+        margin-top: 0;
+        border-radius: 20px;
+        border-style: none;
+
+    
+}
+
+.createAd input, textarea, select {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 35px;
+    margin-top: 25px;
+    border: 2px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+    outline: none;
+}
+
+.createAd button{
+    background:white;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #001F3F;
+    border: 1px solid ;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px ; 
+    font-family: 'Brush Script'
+}
+
+
+.ads {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin: auto;
+    padding: 20px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.infoAd{
+    
+        text-align: initial;
+        padding: 0 15px 5px;
+        background: seashell;
+        border-radius: 25px;
+}
+
+.title{
+    text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+    
+        h1 {
+            margin-top: 15vh;
+            font-size: 5vh;
+        }
+    
+      
+        .create-button, .view-button {
+            margin-top: 20px;
+        }
+
+        .createAd form{
+                width: 250px;
+        }
+        .createAd input, textarea, select{
+            margin-top: 20px;
+        }
+        .ads {
+            
+            width: 200px;
+            padding: 10px;
+        }
+        .ad{
+                
+                width: 100px;
+        }
+}
